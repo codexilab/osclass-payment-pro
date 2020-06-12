@@ -1,0 +1,1885 @@
+# Translation of Payments Pro in Portuguese (Brazil)
+# This file is distributed under the same license as the Payments Pro package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-16 08:54:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Payments Pro\n"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutDataTable.php:93
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:41
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:44
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutDataTable.php:103
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:42
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:46
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:45
+msgid "Taxes"
+msgstr "Taxas"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ModelPaymentPro.php:258
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/load.php:13
+msgid "Please make a wire transfer to the account: {BANK_ACCOUNT} with the concept \"{CODE}\" of a total of {AMOUNT}. We are unable to process your payment if the concept does not containg the code."
+msgstr "Por favor faça a transferência para a conta: {BANK_ACCOUNT}  com o conceito \"{CODE}\" de um total de  {AMOUNT}. Nós estamos incapazes de processar seu pagamento se o conceito não conter o código."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ModelPaymentPro.php:1164
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:40
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/cart-add.php:33
+msgid "Premium enhancement for listing %d"
+msgstr "Aprimoramento Premium para anúncio %d"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ModelPaymentPro.php:1189
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/pay.php:25
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:99
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:167
+msgid "Highlight enhancement for listing %d"
+msgstr "Highlight enhancement for listing %d"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:41
+msgid "Subscription ID"
+msgstr "ID de Inscrição"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:48
+msgid "Source TX"
+msgstr "Fonte TX"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:49
+msgid "Source"
+msgstr "Fonte"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:116
+msgid "Not paid (will be removed)"
+msgstr "Não pago (será removido)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:119
+msgid "Canceled"
+msgstr "Cancelado"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:109
+msgid "<b>Important:</b> disabling this option will block all non-paid listings. If you want them visible on your website, you need to unblock them manually."
+msgstr "<b>Importante:</b> desabilitar esta opção irá bloquear todos os anúncios não-pagos. Se você quiser eles visíveis no seu website, você terá que desbloqueá-los manualmente ."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:111
+msgid "<b>Important:</b> while this option is disabled, unblocking listings will mark them as paid (if you enable this again)."
+msgstr "<b>Importante:</b> enquanto esta opção estiver desabilitada, desbloquear anúncios marcará eles como pagos (se você permitir isto de novo)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:125
+msgid "Move to top fee"
+msgstr "Taxa para mover para o topo"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:130
+msgid "Allow move to top"
+msgstr "Permitir mover para o topo"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:136
+msgid "Default move to top cost"
+msgstr "Custo padrão para mover para o topo"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:145
+msgid "Renew listing fee"
+msgstr "Taxa para renovar anúncio"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:150
+msgid "Allow renew listings, users could pay a fee to extend the expiration date of listings (will not create a new listing)"
+msgstr "Permitir renovar anúncios, usuários podem pagar uma taxa para estender a data de expiração dos anúncios (não irá criar um novo anúncio)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:156
+msgid "Default renew listing cost"
+msgstr "Custo padrão para renovar anúncio"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:160
+msgid "Only change expiration date"
+msgstr "Apenas mudar a data de expiração"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:165
+msgid "Republishing will only change the expiration date, not the publish, the listing will not be moved to the top."
+msgstr "Republicar irá apenas mudar a data de expiração, não a publicação, o anúncio não irá ser movido ao topo."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:177
+msgid "Highlight listings"
+msgstr "Destacar anúncios"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:182
+msgid "Allow listings to have a different background on search and highlight them. You need to modify your theme, <a href=\"javascript:void(0);\" onclick=\"$('#dialog-highlight').dialog('open');\" >Learn how to do it</a>"
+msgstr "Permitir que os anúncios tenham um fundo diferente na pesquisa e destaca-los. Você precisa modificar seu tema, <a href=\"javascript:void(0);\" onclick=\"$('#dialog-highlight').dialog('open');\" >Aprenda como fazer isso</a>"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:188
+msgid "Default highlight cost"
+msgstr "Custo padrão para destacar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:192
+msgid "Highlight days"
+msgstr "Dias destacado"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:196
+msgid "Highlight color"
+msgstr "Cor do destaque"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:203
+msgid "Allow users's wallets"
+msgstr "Permitir carteiras dos usuários"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:208
+msgid "Allow users to have credits and pay for products with that credit"
+msgstr "Permitir que os usuários possuam créditos e paguem pelos produtos com esse crédito"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:215
+msgid "Use tokens for buying products"
+msgstr "Usar tokens para comprar produtos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:220
+msgid "Users will be able to buy \"token/credit packs\" with real money. All other purchases (publish, premium , highlight ...) fees are paid with the previously bought tokens"
+msgstr "Usuários irão ser capazes de comprar \"tokens/pacotes de crédito\" com dinheiro real. Todas as outras taxas de compras (publicar, premium, destacar ...) são pagas com tokens comprados anteriormente"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:227
+msgid "Tokens name"
+msgstr "Nome dos Tokens"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:230
+msgid "You could name your tokens as you want: \"tokens\", \"coins\", \"credits\",..."
+msgstr "Você pode nomear seus tokens como quiser: \"tokens\", \"moedas\", \"créditos\",..."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:240
+msgid "<b>Important:</b> use 3-digit ISO 4217 code like USD, AUD, GBP, EUR, ... <a href=\"https://en.wikipedia.org/wiki/ISO_4217#Active_codes\">see more currency codes</a>"
+msgstr "<b>Importante:</b> use o código de 3 dígitos ISO 4217 códigos como USD, AUD, GBP, EUR, ... <a href=\"https://en.wikipedia.org/wiki/ISO_4217#Active_codes\">veja mais códigos de moeda</a>"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:242
+msgid "<b>Warning:</b> some currencies are not supported by all methods of payment, please check before use."
+msgstr "<b>Atenção:</b> algumas moedas não são suportadas por todos os métodos de pagamento, por favor cheque antes de usar."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:247
+msgid "Show taxes in checkout"
+msgstr "Mostrar taxas no checkout"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:252
+msgid "Force to show the taxes row in the checkout page even if taxes are 0."
+msgstr "Forçar mostrar linha de taxas na página de checkout mesmo que as taxas sejam 0."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:258
+msgid "Default tax"
+msgstr "Taxa padrão"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:260
+msgid "You could set a default tax that will apply to all products."
+msgstr "Você pode colocar uma taxa padrão que irá ser aplicada em todos os produtos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:301
+msgid "More about highlighted listings"
+msgstr "Mais sobre anúncios destacados"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:303
+msgid "You could highlight some listings in the search pages with this option, but you need to modify your theme first."
+msgstr "Você pode destacar alguns anúncios nas páginas de pesquisa com essa opção, mas você precisa modificar seu tema primeiro."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:305
+msgid "There are a few useful functions for highlighted listings. "
+msgstr "Existem algumas funções para destacar anúncios."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:308
+msgid "\"payment_pro_is_highlighted($id)\" accepts an $id as parameter (optional) and will return true/false if a listings is or not highlighted."
+msgstr "\"payment_pro_is_highlighted($id) aceita um $id (opcional) e irá retornar verdadeiro/falso se uma anúncio é ou não destacado."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:311
+msgid "\"payment_pro_print_highlight_class($id)\" accepts an $id as parameter (optional) and will <b>print</b> the highlight class \"payment-pro-highlighted\""
+msgstr "\"payment_pro_print_highlight_class($id)\" aceita um $id como parâmetro e irá <b>mostrar</b> a classe destacado \"payment-pro-highlighted\""
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:314
+msgid "osc_run_hook(\"highlight_class\") will also print the highlight class and <b>it is safe</b>, meaning that it will not output any error even if the plugin is disabled"
+msgstr "osc_run_hook(\"highlight_class\") também irá mostrar a classe destacada <b>e é segura</b>, significando que não irá sobrepor nenhum erro mesmo que o plugin seja desabilitado"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:318
+msgid "Setting up your theme"
+msgstr "Configurando seu tema"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:320
+msgid "In order to use the highlighted listing feature, you need to make a minimal modification to your theme."
+msgstr "Para poder usar a característica destacar anúncio, você precisa fazer algumas mínimas modificações no seu tema."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:322
+msgid "In the search page template, you need to add the following in the <b>class</b> attribute of the div of the listing"
+msgstr "Na página de pesquisa do template, você precisa adicionar o seguinte atributo <b>classe</b> na div do anúncio"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:327
+msgid "(Note: you probably already have a class attribute, in that case, just add the osc_run_hook part)"
+msgstr "(Nota: você provavelmente já possui a classe attribute, nesse caso, apenas adicione a parte osc_run_hook)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:329
+msgid "Examples"
+msgstr "Exemplos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:331
+msgid "In bender theme, you need to modify the file loop-single.php. Look for line 24, change it from "
+msgstr "No tema bender, você precisa modificar o arquivo loop-single.php. Olhe a linha 24 e modifique-a"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:336
+msgid "to"
+msgstr "para"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:363
+msgid "Highlight help"
+msgstr "Ajuda Destaque"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:153
+msgid "Setting up your fees"
+msgstr "Definindo suas taxas"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:153
+msgid "Show all categories"
+msgstr "Mostrar todas as categorias"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:153
+msgid "Only prices different than default"
+msgstr "Apenas preços diferente do padrão"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:155
+msgid "You could set up different prices for each category"
+msgstr "Você pode definir diferentes preços para cada categoria"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:155
+msgid "If the price of a category is left empty, the default value will be applied"
+msgstr "Se o preço de uma categoria é deixada vazia, o valor padrão será aplicado"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:173
+msgid "Category Name"
+msgstr "Nome da Categoria"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:174
+msgid "Publish fee (%s)"
+msgstr "taxa de publicação (%s)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:175
+msgid "Premium fee (%s)"
+msgstr "Taxa Premium (%s)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:176
+msgid "Move to top fee (%s)"
+msgstr "Taxa mover para o topo (%s)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:177
+msgid "Highlight fee (%s)"
+msgstr "Taxa para destacar (%s)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:178
+msgid "Renew fee (%s)"
+msgstr "Taxa para renovar (%s)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:182
+msgid "Update"
+msgstr "Atualizar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:205
+msgid "Publish cost: %s"
+msgstr "Custo para publicar: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:206
+msgid "Premium cost: %s"
+msgstr "Custo do Premium: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:207
+msgid "Move to top cost: %s"
+msgstr "Custo para mover para o topo: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:208
+msgid "Highlight cost: %s"
+msgstr "Custo para destacar: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:209
+msgid "Renew cost: %s"
+msgstr "Custo para renovar: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:244
+msgid "Move to top price"
+msgstr "Preço de mover para o topo"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:248
+msgid "Highlight price"
+msgstr "Preço de destacar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:252
+msgid "Renew price"
+msgstr "Preço de renovar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/header.php:6
+msgid "Manage all your payments settings from here."
+msgstr "Gerir todos os seus pagamentos por aqui."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/header.php:9
+msgid "Settings"
+msgstr "Configurações"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/header.php:10
+msgid "Prices per category"
+msgstr "Preços por categoria"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/header.php:11
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:25
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:68
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:311
+msgid "Add credit to users"
+msgstr "Adicionar créditos para usuários"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/header.php:12
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:69
+msgid "Manage credit packs"
+msgstr "Gerir pacotes de crédito"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/header.php:14
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:307
+msgid "Subscriptions"
+msgstr "Assinaturas"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:11
+msgid "Pack added correctly"
+msgstr "Pacote adicionado corretamente"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:13
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:26
+msgid "All fields are required"
+msgstr "Todos os campos são necessários"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:24
+msgid "Pack updated correctly"
+msgstr "Pacotes atualizados corretamente"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:33
+msgid "Pack deleted"
+msgstr "Pacote deletado"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:35
+msgid "Ops! something went wrong, pack was not deleted"
+msgstr "Ops! Algo deu errado, o pacote não foi deletado"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:59
+msgid "Add credit pack"
+msgstr "Adicionar pacote de créditos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:65
+msgid "Delete pack"
+msgstr "Deletar pacote"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:88
+msgid "Setting up your credits packs"
+msgstr "Configurar seus pacotes de créditos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:88
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:40
+msgid "Warning! Wallets and packs are disabled"
+msgstr "Atenção! Carteiras e pacotes estão desabilitados"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:90
+msgid "Credit packs are a great option to offer to your users, it allows you to offer some discounts for bulk purchase and at the same time reduce the number of transaction with third payment processors (which usually charges you in a per transaction basis)"
+msgstr "Pacote de créditos são uma boa opção para oferecer a seus clientes, isso permite que você ofereça alguns descontos para compras em massa e ao mesmo tempo reduzir o número de transações com processadores de pagamentos terceiros (que geralmente cobram você por transação em base)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:100
+msgid "Set pack prices"
+msgstr "Definir preços de pacote"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:100
+msgid "Add new pack"
+msgstr "Adicionar novo pacote"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:108
+msgid "PACK #%s"
+msgstr "PACOTE #%s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:109
+msgid "Cost: %s"
+msgstr "Custo: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:110
+msgid "Credits: %s"
+msgstr "Créditos: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:111
+msgid "Name: %s"
+msgstr "Nome: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:132
+msgid "Pack cost (what the user pays)"
+msgstr "Custo do pacote (o que os usuários pagam)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:136
+msgid "Credit rewarded (what the user received as credits)"
+msgstr "Créditos obtidos (o quê os usuários recebem como créditos)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:140
+msgid "Name or short description"
+msgstr "Nome ou descrição curta"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:159
+msgid "This will delete the pack, credits in users account will not be deleted. Do you want to continue?"
+msgstr "Isso irá deletar o pacote, créditos na conta do usuário não serão deletados. Você deseja continuar?"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:11
+msgid "Amount added to the user's credit. Current balance: %s (User #%s - %s - %s)"
+msgstr "Quantia adiciona para os créditos do usuário. Saldo atual: %s (Usuário #%s - %s - %s)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:13
+msgid "Error adding the credit: Current balance: %s (User #%s - %s - %s)"
+msgstr "Erro ao adicionar o crédito:  Saldo atual: %s (Usuário #%s - %s - %s)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:16
+msgid "No user selected"
+msgstr "Nenhum usuário selecionado"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:36
+msgid "Start typing to search an user (by email or name)"
+msgstr "Comece a digitar para procurar por um usuário (por e-mail ou nome)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:40
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:470
+msgid "Credit"
+msgstr "Crédito"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:46
+msgid "Add credit"
+msgstr "Adicionar crédito"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:54
+msgid "User info"
+msgstr "Informação do Usuário"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:57
+msgid "Name"
+msgstr "Nome"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:61
+msgid "E-mail"
+msgstr "E-mail"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:65
+msgid "Current balance"
+msgstr "Saldo atual"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:92
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:93
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/wallet.php:94
+msgid "Error getting data"
+msgstr "Erro ao pegar dados"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:8
+msgid "No need to pay the publish fee"
+msgstr "Não há necessidade para pagar a taxa de publicação"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:67
+msgid "It's too soon to move your listing to the top"
+msgstr "Está muito cedo para mover seu anúncio para o topo"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:71
+msgid "The publish fee was not paid"
+msgstr "A taxa de publicação não foi paga"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:77
+msgid "Move to top listing %d"
+msgstr "Mover anúncio para o topo %d"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:130
+msgid "This listing is not paid yet"
+msgstr "Esse anúncio não foi pago ainda"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:138
+msgid "Renew fee for listing %d"
+msgstr "Taxa de renovação para o anúncio %d"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:160
+msgid "Option no longer available"
+msgstr "Opção não está mais disponível"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/functions.php:400
+msgid "Publish this listing"
+msgstr "Publicar esse anúncio"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/functions.php:430
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:419
+msgid "Move to top"
+msgstr "Mover para o topo"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/functions.php:440
+msgid "Already highlighted!"
+msgstr "Já está destacado!"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/functions.php:446
+msgid "Highlight this listing"
+msgstr "Destacar esse anúncio"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/functions.php:457
+msgid "Renew this listing"
+msgstr "Renovar esse Anúncio"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:315
+msgid "Manage your credit packs"
+msgstr "Gerir seus pacotes de créditos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:343
+msgid "Settings, Osclass payments pro "
+msgstr "Configurações, Ossclass payments pro"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:347
+msgid "Categories fees, Osclass payments pro "
+msgstr "Taxas de categorias, Osclass payments pro "
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:351
+msgid "History of payments, Osclass payments pro "
+msgstr "Histórico de pagamentos, Osclass payments pro "
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:355
+msgid "Subscriptions, Osclass payments pro "
+msgstr "Assinaturas, Osclass payments pro "
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:359
+msgid "Add credit to users, Osclass payments pro "
+msgstr "Adicionar créditos aos usuários, Osclass payments pro "
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:363
+msgid "Manage your credit packs, Osclass payments pro "
+msgstr "Gerir seus pacotes de crédito, Osclass payments pro "
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:424
+msgid "Unpay highlight fee"
+msgstr "Não pagar taxa de destacar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:426
+msgid "Pay highlight fee"
+msgstr "Pagar taxa de destacar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:544
+msgid "Buy credit packs"
+msgstr "Comprar Pacote de Créditos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/conf.php:3
+msgid "Don't have an account?"
+msgstr "Não possui uma conta?"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/conf.php:6
+msgid "Create an <a href=\"%s\" target=\"_blank\">Authorize.Net account</a>"
+msgstr "Crie uma <a href=\"%s\" target=\"_blank\">conta Authorize.Net</a>"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/footer.php:4
+msgid "You need an <a href=\"%s\" target=\"_blank\">Authorize.Net account</a>. Once created, access to your panel and copy the API login ID and API transaction key here."
+msgstr "Você precisa de uma <a href=\"%s\" target=\"_blank\">conta Authorize.Net</a>. Uma vez criada, acesse até seu painel e copie seus ID de AP de login e sua chave de API de transação  aqui."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:49
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:50
+msgid "Action"
+msgstr "Ação"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:81
+msgid "Are you sure you want to mark this invoice as paid? Warning: This action might not be able to be undone."
+msgstr "Você tem certeza que você quer marcar essa fatura como paga? Atenção, Essa ação pode não ser desfeita."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:82
+msgid "Are you sure you want to mark this invoice as paid and NOTIFY the user about it? Warning: This action can not be undone."
+msgstr "Você tem certeza que deseja marcar essa fatura como paga e NOTIFICAR o usuário sobre ela? Atenção: Está ação não pode ser desfeita."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:84
+msgid "Are you sure you want to mark this invoice as unpaid? Warning: We will try to unpaid the products, but in some cases it will not be possible."
+msgstr "Você tem certeza que deseja marcar essa fatura não não paga? Atenção: Nós iremos tentar despagar os produtos, mas em alguns casos não será possível."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:85
+msgid "Are you sure you want to NOTIFY the user that his invoice was paid?? Warning: This action can not be undone."
+msgstr "Você tem certeza que deseja NOTIFICAR o usuário que sua fatura foi paga?? Atenção: Essa ação não pode ser desfeita."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:89
+msgid "mark as paid"
+msgstr "marcar como paga"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:89
+msgid "mark as unpaid"
+msgstr "marcar como não paga"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:91
+msgid "mark as paid & notify user"
+msgstr "marcar como paga e notificar usuário"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:91
+msgid "notify user"
+msgstr "notificar usuário"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:93
+msgid "Are you sure you want to delete this invoice?"
+msgstr "Você tem certeza que deseja deletar essa fatura?"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:126
+msgid "Created"
+msgstr "Criada"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankPayment.php:162
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/BlockchainPayment.php:152
+msgid "Missing data"
+msgstr "Faltando dados"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:1
+msgid "Bank transfer settings"
+msgstr "Configurações de transferência bancária"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:3
+msgid "<b>IMPORTANT:</b> Read the help before enabling bank payments"
+msgstr "<b>IMPORTANTE:</b> Leia a ajuda antes de habilitar o pagamento por banco"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:6
+msgid "Enable Bank"
+msgstr "Ativar Banco"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:11
+msgid "Enable bank transfer as a method of payment"
+msgstr "Ativar Banco como método de pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:17
+msgid "Bank Account"
+msgstr "Conta no Banco"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:21
+msgid "Payment message"
+msgstr "Mensagem de pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:24
+msgid "<b>Important:</b> do not forget to include these special keywords in your message or important information will be missing:"
+msgstr "<b>Importante:</b> não esqueça de incluir essas palavras-chave na sua mensagem ou informação importante estará faltando:"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:26
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/footer.php:13
+msgid "<b>{CODE}:</b> the unique code that the user needs to make the payment"
+msgstr "<b>{CODE}:</b> o código único que os usuários precisam para fazer o pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:28
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/footer.php:15
+msgid "<b>{AMOUNT}:</b> total amount that has to be paid"
+msgstr "<b>{AMOUNT}:</b> quantia total que precisa ser paga"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:30
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/footer.php:17
+msgid "<b>{BANK_ACCOUNT}:</b> your bank account"
+msgstr "<b>{BANK_ACCOUNT}:</b> sua conta no banco"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:34
+msgid "Only to buy pack"
+msgstr "Apenas para comprar pacote"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:39
+msgid "Allow bank transfers only for buying packs. Banks transfers have to be confirmed manually, takes a lot of time and it may not be worthy to allow small payments to be made using wire transfers."
+msgstr "Permitir transferências bancárias apenas para comprar pacotes. transferências bancárias precisam ser confirmadas manualmente, leva muito tempo e pode não valer apena para pequenos pagamentos que serão feitos usando trnsferêncais bancárias."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/footer.php:4
+msgid "How to use local bank or wire transfer"
+msgstr "Como usar o banco local ou transferência bancária"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/footer.php:5
+msgid "The plugin assign a short code each time an user want to pay for something and instructs the user to make a payment to your bank account with the given code as a concept. <b>You are required</b> to manually check your bank account (daily, hourly or as frequent as you want to) for payments made with these special codes. Later on the admin panel you could select the payments and mark them as paid."
+msgstr "O plugin atribui um código curto toda vez que o usuário deseja pagar por algo e instrui o usuário a fazer o pagamento para sua conta no banco com o código dado como conceito. <b> Você precisa </b> checar manual sua conta no banco (diariamente, de hora em hora ou na frequência que você quiser) para os pagamentos feitos com esses códigos especiais. Mais tarde no painel de administração você pode selecionar o pagamento e marcar eles como pago."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/footer.php:6
+msgid "We suggest to only allow buying credit packs with bank account, as bank transfer are not for microtransactions."
+msgstr "Nós sugerimos apenas para permitir comprar pacotes de crédito com transferência bancárias, pois transferência bancária não é para microtransações."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/footer.php:10
+msgid "Important"
+msgstr "Importante"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/footer.php:11
+msgid "Do not forget to include these special keywords in your message or important information will be missing:"
+msgstr "Não esqueça de incluir essas palavras-chave na sua mensagem ou irá ficar faltando informação importante:"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/footer.php:22
+msgid "Notes"
+msgstr "Notas"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/footer.php:23
+msgid "Osclass nor this plugin has access to your bank account, that is the reason you need to manually check for payments and mark them as paid."
+msgstr "Nem o Osclass nem o plugin tem acesso a sua conta no banco, é por essa razão que você precisa checar manualmente seus pagamentos e marca-los como pago."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/footer.php:38
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/footer.php:27
+msgid "Bank help"
+msgstr "Ajuda com Banco"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/manage.php:30
+msgid "The invoice has been paid and the user has been notified"
+msgstr "A fatura foi paga e o usuário foi notificado"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/manage.php:32
+msgid "The user has been notified"
+msgstr "O usuário foi notificado"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/manage.php:50
+msgid "The invoice has been paid"
+msgstr "A fatura foi paga"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/manage.php:56
+msgid "The invoice has been unpaid"
+msgstr "A fatura não foi paga"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/manage.php:63
+msgid "The invoice has been deleted"
+msgstr "A fatura foi deletada"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/load.php:47
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/load.php:61
+msgid "Bank transfers"
+msgstr "Transferências bancárias"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/BlockchainPayment.php:173
+msgid "Error API"
+msgstr "Erro de API"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/conf.php:14
+msgid "Blockchain API KEY"
+msgstr "Chave API do Blockchain"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/conf.php:18
+msgid "Bitcoin XPUB address"
+msgstr "Endereço XPUB do Bitcoin"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/footer.php:19
+msgid "To use Blockchain as a method of payment you need to apply for <a href=\"https://api.blockchain.info/v2/apikey/request/\">blockchain.info API key here</a> and a bitcoin XPUB address, there are several ways to obtain one (they are free of charge), please refer to some of the previous links on more information about how to obtain one."
+msgstr "Para usar o  Blockchain como método de pagamento você precisa pedir uma <a href=\"https://api.blockchain.info/v2/apikey/request/\">Chave API do blockchain.info aqui</a> e um endereço XPUB do bitcoin, existem várias maneiras de obter uma (elas são de graça), por favor refira a um dos links anteriores para mais informação sobre como obter uma."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/CcavenuePayment.php:80
+msgid "order id missing"
+msgstr "ID do pedido faltando"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/CcavenuePayment.php:86
+msgid "already paid"
+msgstr "já paga"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/CcavenuePayment.php:108
+msgid "no items"
+msgstr "nenhum item"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/conf.php:18
+msgid "Ccavenue access code"
+msgstr "Código de acesso do Ccavenue"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/conf.php:26
+msgid "Ccavenue access code (sandbox)"
+msgstr "Código de acesso (sandbox) do Ccavenue"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/conf.php:30
+msgid "Ccavenue working key (sandbox)"
+msgstr "Chave de funcionamento do sandbox do Ccavenue"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/conf.php:34
+msgid "Enable sandbox"
+msgstr "Permitir Sandbox"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/conf.php:39
+msgid "Enable Ccavenue sandbox, to test your payments"
+msgstr "Permitir sandbox Ccavenue, para testar seus pagamentos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/notify_url.php:13
+msgid "Something failed (%s). Please write down this transaction ID and contact us: %s"
+msgstr "Alguma falhou (%s). Por favor anote essa ID de transação e nos contate: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:1
+msgid "Pagseguro settings"
+msgstr "Configurações do PagSeguro"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:3
+msgid "Enable Pagseguro"
+msgstr "Permitir PagSeguro"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:8
+msgid "Enable Pagseguro as a method of payment"
+msgstr "Permitir PagSeguro como método de pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:14
+msgid "<b>Important:</b> Pagseguro only works with \"BRL\" as currency."
+msgstr "<b>Importante:</b> Pagseguro só funciona com \"BRL\" como moeda."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:19
+msgid "Pagseguro e-mail"
+msgstr "Email do PagSeguro"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:23
+msgid "Token"
+msgstr "Token"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:27
+msgid "AppId"
+msgstr "AppId"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:31
+msgid "AppKey"
+msgstr "AppKey"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:35
+msgid "Token (sandbox)"
+msgstr "Token (sandbox)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:39
+msgid "AppId (sandbox)"
+msgstr "AppId (sandbox)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:43
+msgid "AppKey (sandbox)"
+msgstr "AppKey (sandbox)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:47
+msgid "Pagseguro sandbox"
+msgstr "Sandbox PagSeguro"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:52
+msgid "Use Pagseguro sandbox to test everything is right before going live"
+msgstr "Use o sandbox do PagSeguro para testar se tudo está certo antes de ir online"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/footer.php:4
+msgid "How to configure Pagseguro"
+msgstr "Como configurar o PagSeguro"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/footer.php:5
+msgid "You need to create an account at <a href=\"https://pagseguro.uol.com.br/\">Pagseguro</a>."
+msgstr "Você precisa criar uma conta no <a href=\"https://pagseguro.uol.com.br/\">Pagseguro</a>."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/footer.php:6
+msgid "Access your account and go to <a href=\"https://pagseguro.uol.com.br/preferencias/integracoes.jhtml\"> \"Minha Conta\" > Preferências > <b>Configurações de integração</b>\"</a>."
+msgstr "Acesse sua conta e vá para <a href=\"https://pagseguro.uol.com.br/preferencias/integracoes.jhtml\"> \"Minha Conta\" > Preferências > <b>Configurações de integração</b>\"</a>."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/footer.php:7
+msgid "There you need to generate the TOKEN you will use for the plugin and also configure the Notificação de transação as: <i><b>%s</b></i>"
+msgstr "Lá você precisa gerar o token que você irá usar para o plugin e também configurar a Notificação de transação as: <i><b>%s</b></i>"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/footer.php:8
+msgid "Then you need to create a new application, for that, go to <a href=\"https://pagseguro.uol.com.br/preferencias/integracoes.jhtml\"> \"Minha Conta\" > Aplicações > <b>Minhas aplicações</b>\"</a> and click on <a href=\"https://pagseguro.uol.com.br/aplicacao/cadastro.jhtml\"><b>Criar nova aplicação</b></a>."
+msgstr "Então você precisa criar uma nova aplicação, para isso, vá para <a href=\"https://pagseguro.uol.com.br/preferencias/integracoes.jhtml\"> \"Minha Conta\" > Aplicações > <b>Minhas aplicações</b>\"</a> e clique em<a href=\"https://pagseguro.uol.com.br/aplicacao/cadastro.jhtml\"><b>Criar nova aplicação</b></a>."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/footer.php:9
+msgid "Input any name for your application, but remember the <b>\"ID da aplicação\"</b>, this is your <b>appId</b>."
+msgstr "Coloque qualquer nome para sua aplicação, mas lembre-se do <b>\"ID da aplicação\"</b>, este é seu <b>appId</b>."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/footer.php:10
+msgid "Configure your <b>\"URL de notificação\"</b> as: <i><b>%s</b></i>"
+msgstr "Configure sua <b>\"URL de notificação\"</b> como: <i><b>%s</b></i>"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/footer.php:11
+msgid "On the next page, you will receive your <b>Chave</b>, this is your <b>appKey</b>."
+msgstr "Na próxima página, você irá receber sua <b>Chave</b>, essa é sua <b>appKey</b>."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/footer.php:11
+msgid "Setting up your Paypal account for payments"
+msgstr "Configurando sua conta Paypal para pagamentos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/footer.php:13
+msgid "You need Paypal API credentials"
+msgstr "Você precisa das credenciais da API do Paypal"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/footer.php:15
+msgid "(Optional) Tell Paypal where is your IPN file"
+msgstr "(Opcional) Você precisa dizer ao Paypal onde está seu arquivo IPN"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/footer.php:19
+msgid "In order to use the Paypal plugin you will need Paypal API credentials, you could obtain them for free following these steps"
+msgstr "Para poder usar o plugin do Paypal você precisa das credenciais API do Paypal, você pode obtê-las de graça seguindo esses passos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/footer.php:24
+msgid "Setting up your IPN (optional, but highly recommended)"
+msgstr "Configurando sua IPN (opcional, mas altamente recomendado)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/footer.php:30
+msgid "Click Choose IPN Settings to specify your listener’s URL and activate the listener (the URL is %s)"
+msgstr "Clique em Escolher Configurações de IPN, para especificar sua URL de escuta e ativar o ouvinte (a URL é %s)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/StripePayment.php:120
+msgid "Please wait a moment while we're processing your payment. Transaction ID : %s"
+msgstr "Por favor espere um momento enquanto nós processamos seu pagamento. ID da Transação: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/checkout.php:149
+msgid "You have %s in your account, after the purchase you will have %s"
+msgstr "Você possui %s na sua conta, depois da compra você irá possuir %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/checkout.php:152
+msgid "Insufficient funds in your wallet"
+msgstr "Fundos insuficiente nas sua carteira"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/item_edit.php:6
+msgid "Make this ad premium"
+msgstr "Faça o Anúncio Premium"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/item_edit.php:9
+msgid "Make your ad to stand out at the home and search pages"
+msgstr "Faça seu anúncio se destacar na página inicial e de buscas"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/item_edit.php:10
+msgid "Premium days %s"
+msgstr "Dias premium %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/item_edit.php:22
+msgid "Highlight this ad"
+msgstr "Destaque este anúncio"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/item_edit.php:25
+msgid "Attract more visitors with a different background color for your ad"
+msgstr "Atraia mais visitantes com um fundo diferente para seu anúncio"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/item_edit.php:26
+msgid "Highlight days %s"
+msgstr "Dias destacado %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/item_edit.php:30
+msgid "Highlight this ad (+%s)"
+msgstr "Destaque esse anúncio (+%s)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/menu.php:36
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/menu.php:38
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/menu.php:40
+msgid "Expiration date"
+msgstr "Data de expiração"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/menu.php:36
+msgid "expired"
+msgstr "expirado"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/menu.php:38
+msgid "will not expire"
+msgstr "não irá expirar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/packs.php:5
+msgid "Your current credit is %s"
+msgstr "Seus créditos atuais são %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/packs.php:18
+msgid "Credit pack #%s"
+msgstr "Pacote de Créditos #%s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/packs.php:20
+msgid "Price: %s"
+msgstr "Preço: $%s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/packs.php:21
+msgid "Amount rewarded: %s"
+msgstr "Quantia ganha: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/packs.php:23
+msgid "Buy this pack"
+msgstr "Comprar esse pacote"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/packs.php:52
+msgid "There are no packs available to buy"
+msgstr "Não existem pacotes disponíveis para comprar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/payfromwallet.php:6
+msgid "You need to login to be able to pay with your credits"
+msgstr "Você precisa logar para ser capaz de comprar com seus créditos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/payfromwallet.php:13
+msgid "Payment not valid"
+msgstr "Pagamento inválido"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/payfromwallet.php:21
+msgid "Payment not valid."
+msgstr "Pagamento inválido."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/payfromwallet.php:32
+msgid "There were an error processing your cart, please try again"
+msgstr "Houve um erro processando seu carrinho, por favor tente novamente"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/payfromwallet.php:41
+msgid "Insuficient funds"
+msgstr "Fundos insuficientes"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/payfromwallet.php:105
+msgid "Success! %s was deducted from your account's credit. Your current credit available is %s"
+msgstr "Sucesso! %s foi reduzido dos créditos da sua conta. Seus créditos disponíveis atualmente são %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:51
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:61
+msgid "Congratulations, the plugin is now configured"
+msgstr "Parabéns, o plugin está configurado agora"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/footer.php:47
+msgid "Paypal help"
+msgstr "Ajuda do PayPal"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:63
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:295
+msgid "Payments settings"
+msgstr "Configurações de pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:74
+msgid "Premium ads"
+msgstr "Anúncios premium"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:79
+msgid "Allow premium ads"
+msgstr "Permitir anúncios premium"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:85
+msgid "Default premium cost"
+msgstr "Custo padrão para premium"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:89
+msgid "Premium days"
+msgstr "Dias premium"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:98
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/item_edit.php:39
+msgid "Publish fee"
+msgstr "Taxa de publicação"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:103
+msgid "Pay per post ads"
+msgstr "Pagar para postar anúncios"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:116
+msgid "Default publish cost"
+msgstr "Custo para publicar padrão"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/conf.php:1
+msgid "Paypal settings"
+msgstr "Configurações do Paypal"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/conf.php:1
+msgid "help"
+msgstr "ajuda"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/conf.php:1
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/conf.php:1
+msgid "Show options"
+msgstr "Mostrar Opções"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/conf.php:3
+msgid "Enable Paypal"
+msgstr "Permitir Paypal"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/conf.php:8
+msgid "Enable Paypal as a method of payment"
+msgstr "Permitir paypal como método de pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/conf.php:14
+msgid "Paypal API username"
+msgstr "API de usuário do Paypal"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/conf.php:18
+msgid "Paypal API password"
+msgstr "Senha da API do Paypal"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/conf.php:22
+msgid "Paypal API signature"
+msgstr "Assinatura da API do Paypal"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/conf.php:26
+msgid "Paypal email"
+msgstr "Email do Paypal"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/conf.php:41
+msgid "Paypal sandbox"
+msgstr "Sandbox Paypal"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/conf.php:46
+msgid "Use Paypal sandbox to test everything is right before going live"
+msgstr "Use o Sandbox da Paypal para testar se tudo está certo antes de ir online"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:267
+msgid "Save changes"
+msgstr "Salvar mudanças"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/footer.php:26
+msgid "Click Profile on the My Account tab"
+msgstr "Clique em Perfil na aba Minha Conta"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/footer.php:28
+msgid "Click Instant Payment Notification Preferences in the Selling Preferences column"
+msgstr "Clique em Notificação de Pagamento Instantânea (IPN) na coluna de Preferências de Venda"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/footer.php:17
+msgid "How to obtain API credentials"
+msgstr "Como obter credenciais do API"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/footer.php:21
+msgid "Verify your account status. Go to your PayPal Profile under My Settings and verify that your Account Type is Premier or Business, or upgrade your account"
+msgstr "Verifique seu status da conta. Vá para o Perfil do PayPal em Minhas Configurações e verifique se seu tipo de conta é Premier ou de Vendedor, ou atualize sua conta"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/footer.php:23
+msgid "Verify your API settings. Click on My Selling Tools. Click Selling Online and verify your API access. Click Update to view or set up your API signature and credentials"
+msgstr "Verifique suas configurações de API. Clique em Minhas Ferramentas de Venda. Clique em Vender Online e verifique o acesso a sua API. Clique em Atualizar para ver ou criar sua assinatura API e credenciais"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:293
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:345
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:257
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:275
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:145
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:163
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/footer.php:8
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/footer.php:27
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/footer.php:27
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/footer.php:14
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/footer.php:28
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/admin/footer.php:16
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/admin/footer.php:36
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/footer.php:14
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/functions.php:43
+msgid "Pay with your credit"
+msgstr "Pagar com seus créditos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:66
+msgid "Payment options"
+msgstr "Opções de pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:67
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:299
+msgid "Categories fees"
+msgstr "Taxa das categorias"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:189
+msgid "Listings payment status"
+msgstr "Status de pagamento dos anúncios"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:191
+msgid "Buy credit for payments"
+msgstr "Comprar créditos para pagamentos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/BlockchainPayment.php:51
+msgid "Please send %f BTC to <br /> <b>[[address]]</b></p>"
+msgstr "Por favor mande %f BTC para <br /> <b>[[address]]</b></p>"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/BlockchainPayment.php:55
+msgid "Payment Received <b>[[value]] BTC</b>. Thank You."
+msgstr "Pagamento Recebido <b>[[value]] BTC</b>. Obrigado."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/AuthorizePayment.php:51
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/BraintreePayment.php:56
+msgid "Card number"
+msgstr "Número do cartão"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/BraintreePayment.php:60
+msgid "CVV"
+msgstr "CVV"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/BraintreePayment.php:64
+msgid "Expiration (MM/YYYY)"
+msgstr "Expira em (MM/YYYY)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/AuthorizePayment.php:102
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/BraintreePayment.php:70
+msgid "Processing payment, please wait."
+msgstr "Processando pagamento, espere um momento."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/AuthorizePayment.php:109
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/BraintreePayment.php:81
+msgid "Processing the payment, please wait"
+msgstr "Processando o pagamento, espere um momento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/AuthorizePayment.php:152
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/BraintreePayment.php:115
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/StripePayment.php:117
+msgid "Success! Please write down this transaction ID in case you have any problem: %s"
+msgstr "Sucesso! Por favor escreva o ID da transação em caso de você ter algum problema: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/AuthorizePayment.php:157
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/BraintreePayment.php:119
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/StripePayment.php:123
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/payfromwallet.php:73
+msgid "Warning! This payment was already paid"
+msgstr "Atenção! Este pagamento já foi pago"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/BraintreePayment.php:121
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/StripePayment.php:125
+msgid "There were an error processing your payment"
+msgstr "Aconteceu um erro ao processar seu pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/cancel.php:2
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/cancel.php:2
+msgid "You cancel the payment process or there was an error. If the error continue, please contact the administrator"
+msgstr "Você cancelou o processo de pagamento ou houve um erro. Se  erro continuar, por favor contate o administrador"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/return.php:20
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/notify_url.php:9
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/return.php:9
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/return.php:22
+msgid "Payment processed correctly"
+msgstr "Pagamento processado corretamente"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/return.php:22
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/notify_url.php:11
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/return.php:11
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/pagseguro/return.php:18
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/paypal/return.php:24
+msgid "We are processing your payment, if we did not finish in a few seconds, please contact us"
+msgstr "Nós estamos processando seu pagamento, se nós não terminarmos em alguns segundos, por favor nos contate"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/BlockchainPayment.php:56
+msgid "Click here to continue"
+msgstr "Clique aqui para continuar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/conf.php:1
+msgid "Blockchain settings"
+msgstr "Configurações de Blockchain"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/menu.php:22
+msgid "You don't have any listing yet"
+msgstr "Você não possui anúncios ainda"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/menu.php:34
+msgid "Publication date"
+msgstr "Data de publicação"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutDataTable.php:24
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:44
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/menu.php:42
+msgid "Price"
+msgstr "Preço"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/functions.php:394
+msgid "Paid!"
+msgstr "Pago!"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/functions.php:409
+msgid "Already premium!"
+msgstr "Já é um Anúncio Premium!"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/functions.php:415
+msgid "Make premium"
+msgstr "Fazer Anúncio Premium"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/packs.php:7
+msgid "Your wallet is empty. Buy some credits."
+msgstr "Sua carteira está vazia. Compre alguns créditos."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutDataTable.php:22
+msgid "Code"
+msgstr "Código"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutDataTable.php:23
+msgid "Product"
+msgstr "Produto"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutDataTable.php:25
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:45
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutDataTable.php:26
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutDataTable.php:114
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:43
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:47
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:46
+msgid "Total"
+msgstr "Total"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutDataTable.php:27
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutDataTable.php:76
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:276
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:164
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:51
+msgid "Delete"
+msgstr "Deletar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:38
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:40
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:40
+msgid "Status"
+msgstr "Status"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:39
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:42
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:42
+msgid "Date"
+msgstr "Data"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:40
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:43
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:43
+msgid "Items"
+msgstr "Items"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:44
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:47
+msgid "User"
+msgstr "Usuário"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:45
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:48
+msgid "Email"
+msgstr "Email"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:46
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:41
+msgid "Tx ID"
+msgstr "Tx ID"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:47
+msgid "source"
+msgstr "fonte"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:101
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:98
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:117
+msgid "Failed"
+msgstr "Falhou"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:104
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:101
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:120
+msgid "Completed"
+msgstr "Completada"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:107
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:104
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:123
+msgid "Pending"
+msgstr "Pendente"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:110
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:107
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:129
+msgid "Already paid"
+msgstr "Já Paga"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:113
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:110
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:132
+msgid "Wrong amount/total"
+msgstr "Quantia errada/total"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/CheckoutInvoicesDataTable.php:116
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/SubscriptionsDataTable.php:113
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:135
+msgid "Wrong amount/listing"
+msgstr "Quantia errada/anúncio"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:58
+msgid "Please, change the crypt key (PAYMENT_PRO_CRYPT_KEY) in %s. <a id=\"howto\" href=\"javascript:void(0);\" onclick=\"$('#dialog-howto').dialog('open');\">How to do it.</a>"
+msgstr "Por favor troque a chave crypt  (PAYMENT_PRO_CRYPT_KEY) no %s. <a id=\"howto\" href=\"javascript:void(0);\" onclick=\"$('#dialog-howto').dialog('open');\">Como fazer isso.</a>"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:237
+msgid "Default currency"
+msgstr "Moeda Padrão"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:277
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:356
+msgid "How to change PAYMENT_PRO_CRYPT_KEY"
+msgstr "Como mudar o PAYMENT_PRO_CRYPT_KEY"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:279
+msgid "PAYMENT_PRO_CRYPT_KEY is an unique key of <b>16, 24 or 32 characters long</b> to encrypt your payment information. You need to change it to something unique and not too short."
+msgstr "PAYMENT_PRO_CRYPT_KEY é uma chave única de <b>16, 24 ou 32 caracteres</b> que serve para encriptar suas informações de pagamento. Você precisa mudar isso para algo único e não muito curto."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf.php:281
+msgid "PAYMENT_PRO_CRYPT_KEY should be defined in %s . If you do not have said file, create it with the following content: "
+msgstr "PAYMENT_PRO_CRYPT_KEY deve ser definida em %s. Se você não tiver o arquivo pedido, crie-o com o seguinte conteúdo:"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:17
+msgid "Category prices updated correctly"
+msgstr "Preços das categorias atualizados corretamente"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:19
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:28
+msgid "Category is not defined"
+msgstr "A categoria não está definida"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:26
+msgid "Category prices changed to default"
+msgstr "Preços das categorias modificados para padrão"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:114
+msgid "Set category prices"
+msgstr "Defina preço das categorias"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:120
+msgid "Delete category prices"
+msgstr "Delete preços das categorias"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:195
+msgid "Set categories prices"
+msgstr "Definir preços das categorias"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:195
+msgid "Add new price"
+msgstr "Adicionar novo preço"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:210
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:112
+msgid "edit"
+msgstr "editar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:211
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:113
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/BankDataTable.php:93
+msgid "delete"
+msgstr "deletar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:230
+msgid "Category"
+msgstr "Categoria"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:236
+msgid "Publish price"
+msgstr "Preço para publicar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:240
+msgid "Premium price"
+msgstr "Preço Premium"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:258
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/packs.php:146
+msgid "Add"
+msgstr "Adicionar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/conf_prices.php:271
+msgid "This will revert back the prices to the default ones. Do you want to continue?"
+msgstr "Isso irá reverter os preços para os valores padrões. Você deseja continuar?"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/log.php:80
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/subs.php:84
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/manage.php:152
+msgid "View all status"
+msgstr "Ver todos os status"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/log.php:92
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/subs.php:97
+msgid "View all sources"
+msgstr "Ver todas as fontes"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/log.php:126
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/subs.php:138
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/bank/admin/manage.php:197
+msgid "No data available in table"
+msgstr "Nenhum dado disponível na tabela"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/pay.php:35
+msgid "Listing unpaid"
+msgstr "Anúncios não pagos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/pay.php:40
+msgid "Listing paid"
+msgstr "Anúncios pagos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/pay.php:49
+msgid "Listing disabled"
+msgstr "Anúncios desabilitados"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/pay.php:58
+msgid "Listing enabled"
+msgstr "Anúncios permitidos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:13
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:34
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:63
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:93
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:122
+msgid "This listing is not enabled yet"
+msgstr "Este anúncio não foi permitido ainda"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ModelPaymentPro.php:1136
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:19
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:45
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:104
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/cart-add.php:13
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/cart-add.php:38
+msgid "Publish fee for listing %d"
+msgstr "Taxa de publicação para anúncio %d"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:20
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:49
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:79
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:108
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:140
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:157
+msgid "Product added to your cart"
+msgstr "Produto adicionado ao seu carrinho"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:25
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:54
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:84
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:113
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/ajax.php:145
+msgid "This listing does not belong to you"
+msgstr "Esse anúncio não pertence a você"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/functions.php:62
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/functions.php:76
+msgid "No method of payment is available"
+msgstr "Nenhum método de pagamento está disponível"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/admin/header.php:13
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:70
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:303
+msgid "History of payments"
+msgstr "Histórico de pagamentos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:123
+msgid "Publish fee for item %s"
+msgstr "Taxa de publicação para o item %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:150
+msgid "Premium fee for item %s"
+msgstr "Taxa premium para o item %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:223
+msgid "The listing hasn't been paid"
+msgstr "O anúncio não foi pago"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:226
+msgid "To make this listing available to others, you need to pay a publish fee. <a href=\"%s\">Continue and make the ad public</a>"
+msgstr "Para fazer esse anúncio disponível para os outros, você precisa pagar uma taxa de publicação. <a href=\"%s\">Continue e faça o anúncio público</a>"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:372
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:373
+msgid "Active"
+msgstr "Ativar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:372
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:373
+msgid "Blocked"
+msgstr "Bloqueado"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:375
+msgid "Paid"
+msgstr "Pago"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:377
+msgid "No-paid"
+msgstr "Não pago"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:409
+msgid "Block"
+msgstr "Bloquear"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:411
+msgid "Unblock"
+msgstr "Desbloquear"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:432
+msgid "Unpay publish fee"
+msgstr "Não pagar taxa de publicar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:434
+msgid "Pay publish fee"
+msgstr "Pagar taxa de publicar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:537
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:540
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:541
+msgid "Checkout"
+msgstr "Checkout"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/index.php:543
+msgid "Payment status"
+msgstr "Status de pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/AuthorizePayment.php:24
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/BraintreePayment.php:28
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/StripePayment.php:30
+msgid "%d products"
+msgstr "%d produtos"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/AuthorizePayment.php:55
+msgid "Expiration (MM/YY)"
+msgstr "Expira em (MM/YY)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/AuthorizePayment.php:99
+msgid "Pay"
+msgstr "Pagar"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/AuthorizePayment.php:160
+msgid "There were an error processing your payment: %s"
+msgstr "Aconteceu um erro ao processar seu pagamento: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/conf.php:1
+msgid "Authorize.Net settings"
+msgstr "Configurações do Authorize.net"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/conf.php:11
+msgid "Enable Authorize.Net"
+msgstr "Ativar Authorize.net"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/conf.php:16
+msgid "Enable Authorize.Net as a method of payment"
+msgstr "Ativar Authorize.net como método de pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/conf.php:22
+msgid "Authorize.Net API login ID"
+msgstr "ID de API de login Authorize.net"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/conf.php:26
+msgid "Authorize.Net API transaction key"
+msgstr "Chave (key) de transação Authorize.net"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/conf.php:30
+msgid "Authorize.Net sandbox"
+msgstr "Sandbox Authorize.net"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/conf.php:35
+msgid "Use Authorize.Net sandbox to test everything is right before going live. <b>You need to modify your TEST/LIVE status at <a href=\"https://sandbox.authorize.net/\">Authorize.Net</a> too.</b>"
+msgstr "Usar sandbox Authorize.net para testar se tudo está certo antes de ir ao vivo. b>Você precisará modificar seu status TEST/LIVE (Teste/Ao Vivo) em <a href=\"https://sandbox.authorize.net/\">Authorize.Net</a> também.</b>"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/authorize/admin/footer.php:19
+msgid "Authorize.Net help"
+msgstr "Authorize.Net ajuda"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/conf.php:3
+msgid "Enable Blockchain"
+msgstr "Perimitir Blockchain"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/conf.php:8
+msgid "Enable Blockchain as a method of payment"
+msgstr "Permitir Blockchain como método de pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/conf.php:22
+msgid "Bitcoin confirmations (default = 6)"
+msgstr "Confirmações do Bitcoin (padrão = 6)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/footer.php:4
+msgid "Learn more about Bitcoins"
+msgstr "Aprenda mais sobre Bitcoins"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/footer.php:6
+msgid "Bitcoin official website: %s"
+msgstr "Site oficial do Bitcoin: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/footer.php:8
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/footer.php:8
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/footer.php:8
+msgid "Getting started: %s"
+msgstr "Começando: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/footer.php:10
+msgid "F.A.Q.: %s"
+msgstr "F.A.Q.: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/footer.php:12
+msgid "We use coins: %s"
+msgstr "Nós usamos moedas: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/footer.php:14
+msgid "More info about Blockchain: %s"
+msgstr "Mais informação sobre Blockchain: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/footer.php:17
+msgid "Blockchain"
+msgstr "Blockchain"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/footer.php:21
+msgid "The services of Blockchain are free if the usage fits in their \"fair use policy\"."
+msgstr "Os serviços do Blockchain são gratuitos se o uso se encaixa na \"política de uso justo\" deles."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/blockchain/admin/footer.php:38
+msgid "Blockchain help"
+msgstr "Ajuda do Blockchain"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/conf.php:1
+msgid "Braintree settings"
+msgstr "Configurações Braintree"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/conf.php:3
+msgid "Enable Braintree"
+msgstr "Permitir Braintree"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/conf.php:8
+msgid "Enable Braintree as a method of payment"
+msgstr "Permitir Braintree como método de pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/conf.php:14
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/conf.php:14
+msgid "Enable Sandbox"
+msgstr "Permitir Sandbox"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/conf.php:19
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/conf.php:19
+msgid "Enable sandbox for development testing"
+msgstr "Permitir Sandbox para teste de desenvolvimento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/conf.php:25
+msgid "Braintree merchant id"
+msgstr "ID de mercador do Braintree"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/conf.php:29
+msgid "Braintree public key"
+msgstr "Chave pública do Braintree"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/conf.php:33
+msgid "Braintree private key"
+msgstr "Chave privada do Braintree"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/conf.php:37
+msgid "Braintree encryption key"
+msgstr "Chave de encriptação do Braintree"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/footer.php:4
+msgid "Learn more about Braintree"
+msgstr "Aprenda mais sobre o Braintree"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/footer.php:6
+msgid "Braintree official website: %s"
+msgstr "Site oficial do Braintree: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/braintree/admin/footer.php:25
+msgid "Braintree help"
+msgstr "Ajuda do Braintree"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/conf.php:1
+msgid "Ccavenue settings"
+msgstr "Configurações do Ccavenue"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/conf.php:3
+msgid "Enable Ccavenue"
+msgstr "Permitir Ccavenue"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/conf.php:8
+msgid "Enable Ccavenue as a method of payment"
+msgstr "Permitir Ccavenue como método de pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/conf.php:14
+msgid "Ccavenue merchant id"
+msgstr "id de mercador do Ccavenue"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/conf.php:22
+msgid "Ccavenue working key"
+msgstr "chave de funcionamento Ccavenue"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/footer.php:4
+msgid "Learn more about Ccavenue"
+msgstr "Aprenda mais sobre Ccavenue"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/footer.php:5
+msgid "To successfully integrate you need to follow the below steps:"
+msgstr "Para integrar com sucesso você precisa seguir os seguintes passos:"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/footer.php:6
+msgid "Go to the <b>Settings and Options</b> link in the top menu and click on the <b>Generate Working Key</b> link."
+msgstr "Vá para o link<b>Configurações e Opções</b> no menu do topo e clique no link <b> Gerar Chave de Funcionamento </b>."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/footer.php:9
+msgid "Please login to your CCAvenue account"
+msgstr "Por favor logue-se na sua conta do CCAvenue"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/footer.php:12
+msgid "Go to <b>Settings & Options</b>"
+msgstr "Vá para <b>Configurações e Opções </b>"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/footer.php:15
+msgid "Click the <b>Get Working Key</b>"
+msgstr "Clique no <b> Pegar Chave de Funcionamento </b>"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/footer.php:18
+msgid "In Osclass admin panel, go to <b><a href=\"%s\">Payment options</a></b> and set the <b>Working key</b>"
+msgstr "No painel de administração do Osclass, vá para <b><a href=\"%s\">Opções de pagamento</a></b> e defina a <b>Chav de Funcionamento</b>"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/footer.php:22
+msgid "Merchant id"
+msgstr "Id de mercador"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/footer.php:22
+msgid "This ID is generated for you at the time of activation of your site on Ccavenue. You can get your <b>Ccavenue Merchant Id</b> at <b>Generate Key</b> of <b>Settings & Options</b> section."
+msgstr "Essa ID é gerada para você no tempo de ativação do seu site no Ccavenue. Você pode pegar a sua <b>ID de mercador do Ccavenue</b> em <b>Gerar Chave</b> na seção <b>Configurações e Opções</b>."
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/ccavenue/admin/footer.php:39
+msgid "Ccavenue help"
+msgstr "Ajuda do CCavenue"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/StripePayment.php:49
+msgid "Stripe"
+msgstr "Stripe"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/StripePayment.php:91
+msgid "Please wait a moment while we're processing your payment"
+msgstr "Por favor espere um momento enquanto nós processamos seu pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/conf.php:1
+msgid "Stripe settings"
+msgstr "Configurações do Stripe"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/conf.php:3
+msgid "Enable Stripe"
+msgstr "Permitir Stripe"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/conf.php:8
+msgid "Enable Stripe as a method of payment"
+msgstr "Permitir Stripe como método de pagamento"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/conf.php:25
+msgid "Stripe secret key"
+msgstr "Chave secreta do Stripe"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/conf.php:29
+msgid "Stripe public key"
+msgstr "Chave pública do Stripe"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/conf.php:33
+msgid "Stripe secret key (test)"
+msgstr "chave secreta (teste) do Stripe"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/conf.php:37
+msgid "Stripe public key (test)"
+msgstr "Chave pública (teste) do Stripe"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/footer.php:4
+msgid "Learn more about Stripe"
+msgstr "Aprenda mais sobre o Stripe"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/footer.php:6
+msgid "Stripe official website: %s"
+msgstr "Website oficial do Stripe: %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/payments/stripe/admin/footer.php:26
+msgid "Stripe help"
+msgstr "Ajuda do Stripe"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/cart-add.php:20
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/cart-add.php:46
+msgid "Product could not be added"
+msgstr "O produto não pode ser adicionado"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/checkout.php:103
+msgid "Checkout page"
+msgstr "página de checkout"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/checkout.php:127
+msgid "Your cart is empty"
+msgstr "Seu carrinho está vazio"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/checkout.php:134
+msgid "Continue and pay with:"
+msgstr "Continue e pague com:"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/done.php:3
+msgid "Want to publish more listings?"
+msgstr "Gostaria de publicar mais anúncios?"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/done.php:6
+msgid "Publish another listing"
+msgstr "Publicar outro anúncio"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/done.php:7
+msgid "Continue browsing"
+msgstr "Continuar navegando"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/item_edit.php:106
+msgid "Publish options"
+msgstr "Opções de publicação"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/item_edit.php:14
+msgid "Make this ad premium (+%s)"
+msgstr "Faça o Anúncio Premium (+%s)"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/item_edit.php:41
+msgid "Publishing this ad costs %s"
+msgstr "Publicar esse anúncio custa %s"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/menu.php:20
+msgid "Your listings"
+msgstr "Seus Anúncios"
+
+#: /home/conejo/public_html/osclass/Osclass/oc-content/plugins/payment_pro/user/menu.php:51
+msgid "This listing is blocked"
+msgstr "Este anúncio foi bloqueado"

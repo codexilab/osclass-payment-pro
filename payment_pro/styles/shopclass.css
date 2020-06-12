@@ -1,0 +1,28 @@
+.opt_payment, .opt_payment_pro_pack {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-width: 1px 0;
+    border-radius: 0;
+}
+
+.opt_payment a:before, .opt_payment_pro_pack a:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\0000a0\f03a\0000a0';
+}
+
+.opt_payment a:before {
+    content: '\0000a0\f03a\0000a0';
+}
+
+.opt_payment_pro_pack a:before {
+    content: '\0000a0\f09d\0000a0';
+}

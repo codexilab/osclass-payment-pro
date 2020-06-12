@@ -1,0 +1,1 @@
+<?php /* It is not certain that everything is uncertain. */
