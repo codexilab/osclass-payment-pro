@@ -9,9 +9,9 @@
 
 /*
 Plugin Name: Osclass Payments Pro
-Plugin URI: http://market.osclass.org/plugins/payments/osclass-payments-pro_203
+Plugin URI: https://github.com/codexilab/osclass-payment_pro
 Description: Complete and professional payments system for all your needs
-Version: 3.4.0
+Version: 3.4.0-1b
 Author: Osclass
 Author URI: http://www.osclass.org/
 Short Name: osclass_payment_pro

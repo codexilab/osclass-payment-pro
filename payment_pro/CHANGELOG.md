@@ -1,6 +1,10 @@
 Osclass Payments Pro
 ====================
 
+##version 3.4.0-1b - 12/06/2020
+
+* php7+ compatibility (need testers)
+
 ##version 3.4.0 - 18/07/2017
 
 * Fixed some issues with Braintree

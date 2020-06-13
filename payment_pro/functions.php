@@ -1,34 +1,40 @@
 <?php
 
     function payment_pro_crypt($string) {
-        if(payment_pro_openssl()) {
-            if (class_exists("Cryptor") && Cryptor::Usable()) {
-                $key = hash("sha256", PAYMENT_PRO_CRYPT_KEY, true);
-                return Cryptor::Encrypt($string, $key);
+        if (version_compare(phpversion(), '7.0', '<') && function_exists('mcrypt_encrypt')) {
+            // DEPRECATED
+            $cypher = MCRYPT_RIJNDAEL_256;
+            $mode = MCRYPT_MODE_ECB;
+            return base64_encode(mcrypt_encrypt($cypher, PAYMENT_PRO_CRYPT_KEY, $string, $mode,
+                mcrypt_create_iv(mcrypt_get_iv_size($cypher, $mode), MCRYPT_RAND)
+            ));
+        } elseif (version_compare(phpversion(), '7.0', '>=') && function_exists('openssl_encrypt')) {
+            if(payment_pro_openssl()) {
+                if (class_exists("Cryptor") && Cryptor::Usable()) {
+                    $key = hash("sha256", PAYMENT_PRO_CRYPT_KEY, true);
+                    return Cryptor::Encrypt($string, $key);
+                }
             }
         }
-        // DEPRECATED
-        $cypher = MCRYPT_RIJNDAEL_256;
-        $mode = MCRYPT_MODE_ECB;
-        return base64_encode(mcrypt_encrypt($cypher, PAYMENT_PRO_CRYPT_KEY, $string, $mode,
-            mcrypt_create_iv(mcrypt_get_iv_size($cypher, $mode), MCRYPT_RAND)
-        ));
     }
 
     function payment_pro_decrypt($string) {
-        if($string=='') { return ''; };
-        if(payment_pro_openssl()) {
-            if(class_exists("Cryptor") && Cryptor::Usable()) {
-                $key = hash("sha256", PAYMENT_PRO_CRYPT_KEY, true);
-                return Cryptor::Decrypt($string, $key);
+        if($string=='') return '';
+        if (version_compare(phpversion(), '7.0', '<') && function_exists('mcrypt_decrypt')) {
+            // DEPRECATED
+            $cypher = MCRYPT_RIJNDAEL_256;
+            $mode = MCRYPT_MODE_ECB;
+            return str_replace("\0", "", mcrypt_decrypt($cypher, PAYMENT_PRO_CRYPT_KEY,  base64_decode($string), $mode,
+                mcrypt_create_iv(mcrypt_get_iv_size($cypher, $mode), MCRYPT_RAND)
+            ));
+        } elseif (version_compare(phpversion(), '7.0', '>=') && function_exists('openssl_decrypt')) {
+            if(payment_pro_openssl()) {
+                if(class_exists("Cryptor") && Cryptor::Usable()) {
+                    $key = hash("sha256", PAYMENT_PRO_CRYPT_KEY, true);
+                    return Cryptor::Decrypt($string, $key);
+                }
             }
         }
-        // DEPRECATED
-        $cypher = MCRYPT_RIJNDAEL_256;
-        $mode = MCRYPT_MODE_ECB;
-        return str_replace("\0", "", mcrypt_decrypt($cypher, PAYMENT_PRO_CRYPT_KEY,  base64_decode($string), $mode,
-            mcrypt_create_iv(mcrypt_get_iv_size($cypher, $mode), MCRYPT_RAND)
-        ));
     }
 
     function payment_pro_openssl() {
