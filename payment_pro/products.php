@@ -31,7 +31,15 @@ function payment_pro_item_paid($item, $data, $invoiceId) {
         }
     } else if (substr($item['id'], 0, 3) == 'HLT') {
         ModelPaymentPro::newInstance()->payHighlightFee($item['item_id'], $invoiceId);
-    } else if (substr($item['id'], 0, 3) == 'WLT') {
+    } else if (class_exists('Packages') && substr($item['id'], 0, 3) == 'PCK') {
+        $packageAssigned = Packages::newInstance()->getAssigned($data['user']);
+        // Remove current package assigned, if have it!
+        if ($packageAssigned && $packageAssigned['fk_i_package_id'] == $item['item_id']) {
+            Packages::newInstance()->removePackageAssigned($data['user']);
+        }
+        Packages::newInstance()->assignPackage($item['item_id'], $data['user'], date("Y-m-d H:i:s"), $invoiceId);
+        return PAYMENT_PRO_ENABLED;
+	} else if (substr($item['id'], 0, 3) == 'WLT') {
         $pack = ModelPaymentPro::newInstance()->pack(substr($item['id'], 4));
         $qty = 1;
         if(isset($item["quantity"])) {
@@ -71,7 +79,7 @@ osc_add_hook('payment_pro_item_unpaid', 'payment_pro_item_unpaid');
 
 function payment_pro_cart_add_filter($item) {
     $str = substr($item['id'], 0, 3);
-    if($str=='PRM' || $str=='PUB' || $str=='TOP' || $str=='RNW') {
+    if($str=='PRM' || $str=='PUB' || $str=='TOP' || $str=='RNW' || $str=='PCK') {
         $item['quantity'] = 1;
     }
     return $item;
@@ -80,7 +88,7 @@ osc_add_filter('payment_pro_add_to_cart', 'payment_pro_cart_add_filter');
 
 function payment_pro_cart_quantity_filter($quantity, $item) {
     $str = substr($item['id'], 0, 3);
-    if($str=='PRM' || $str=='PUB' || $str=='TOP' || $str=='RNW') {
+    if($str=='PRM' || $str=='PUB' || $str=='TOP' || $str=='RNW' || $str=='PCK') {
         $quantity = 1;
     }
     return $quantity;
