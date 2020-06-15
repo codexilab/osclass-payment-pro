@@ -26,6 +26,16 @@ define('PAYMENT_PRO_PLUGIN_FOLDER', 'payment_pro/');
 if(!defined('PAYMENT_PRO_CRYPT_KEY')) {
     define('PAYMENT_PRO_CRYPT_KEY', 'randompasswordchangethis');
 }
+
+class PackageAssignment {
+    public static function check() {
+        if (function_exists('check_package_assignment')) {
+            return check_package_assignment();
+        }
+        return false;
+    }
+}
+
 // PAYMENT STATUS
 define('PAYMENT_PRO_FAILED', 0);
 define('PAYMENT_PRO_COMPLETED', 1);
@@ -97,14 +107,16 @@ osc_add_hook('admin_footer', 'payment_pro_style_admin_menu');
 
 function payment_pro_publish($item, $do_edit = false) {
     $item = Item::newInstance()->findByPrimaryKey($item['pk_i_id']);
-    if(!$do_edit) {
+    if(!$do_edit && PackageAssignment::check() == false) {
         ModelPaymentPro::newInstance()->createItem($item['pk_i_id'], 0, null, null, $item['b_enabled']);
+    } elseif (!$do_edit && PackageAssignment::check() == true) {
+        ModelPaymentPro::newInstance()->createItem($item['pk_i_id'], 1, null, null, $item['b_enabled']);
     }
     $checkout = false;
     $category_fee = 0;
     $premium_fee = 0;
     // Need to pay to publish ?
-    if(osc_get_preference('pay_per_post', 'payment_pro')==1) {
+    if(osc_get_preference('pay_per_post', 'payment_pro')==1 && PackageAssignment::check() == false) {
         $is_paid = false;
         if($do_edit) {
             $is_paid = ModelPaymentPro::newInstance()->publishFeeIsPaid($item['pk_i_id']);
@@ -129,14 +141,14 @@ function payment_pro_publish($item, $do_edit = false) {
                 }
             } else {
                 // PRICE IS ZERO
-                if(!$do_edit) {
+                if(!$do_edit && PackageAssignment::check() == true) {
                     ModelPaymentPro::newInstance()->payPostItem($item['pk_i_id']);
                     //ModelPaymentPro::newInstance()->createItem($item['pk_i_id'], 1, null, null, $item['b_enabled']);
                 }
             }
         }
     } else {
-        if(!$do_edit) {
+        if(!$do_edit && PackageAssignment::check() == true) {
             ModelPaymentPro::newInstance()->payPostItem($item['pk_i_id']);
         }
     }
@@ -212,14 +224,14 @@ function payment_pro_premium_off($id) {
 }
 
 function payment_pro_before_edit($item) {
-    if((osc_get_preference('pay_per_post', 'payment_pro') == '1' && ModelPaymentPro::newInstance()->publishFeeIsPaid($item['pk_i_id']))|| (osc_get_preference('allow_premium','payment') == '1' && ModelPaymentPro::newInstance()->premiumFeeIsPaid($item['pk_i_id']))) {
+    if((osc_get_preference('pay_per_post', 'payment_pro') == '1' && PackageAssignment::check() == false && ModelPaymentPro::newInstance()->publishFeeIsPaid($item['pk_i_id']))|| (osc_get_preference('allow_premium','payment') == '1' && ModelPaymentPro::newInstance()->premiumFeeIsPaid($item['pk_i_id']))) {
         $cat[0] = Category::newInstance()->findByPrimaryKey($item['fk_i_category_id']);
         View::newInstance()->_exportVariableToView('categories', $cat);
     }
 }
 
 function payment_pro_show_item($item) {
-    if(osc_get_preference("pay_per_post", 'payment_pro')=="1" && !ModelPaymentPro::newInstance()->publishFeeIsPaid($item['pk_i_id']) ) {
+    if(osc_get_preference("pay_per_post", 'payment_pro')=="1" && PackageAssignment::check() == false && !ModelPaymentPro::newInstance()->publishFeeIsPaid($item['pk_i_id']) ) {
         if( osc_is_admin_user_logged_in() ) {
             osc_get_flash_message('pubMessages', true);
             osc_add_flash_warning_message( __('The listing hasn\'t been paid', 'payment_pro') );
