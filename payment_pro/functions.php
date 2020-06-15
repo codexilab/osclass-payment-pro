@@ -212,6 +212,15 @@
                 if(substr($aRow['id'] . "   ", 0, 3)=="WLT") {
                     if($mixed==1) {
                         unset($items[$k]);
+                    } 
+
+                    if ($str=='PCK' && class_exists('Packages')) {
+                        $cat = explode("-", $item['id']);
+                        $price = Packages::newInstance()->getPackagePrice(substr($cat[0], 3));
+                        if($item['quantity']!=1 || $price!=$item['amount']) {
+                            return PAYMENT_PRO_WRONG_AMOUNT_ITEM;
+                        }
+
                     } else {
                         $mixed = -1;
                     }
