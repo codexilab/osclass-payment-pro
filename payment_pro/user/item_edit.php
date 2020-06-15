@@ -34,7 +34,9 @@ $opt = '<div class="payments-box">' .
 }
 
 
-if(isset($payment_pro_publish_fee['price']) && $payment_pro_publish_fee['price']>0) {
+$package = array();
+if (function_exists('get_package_info_current')) $package = get_package_info_current();
+if(isset($payment_pro_publish_fee['price']) && $payment_pro_publish_fee['price']>0 && $package && !$package['in_use'] || $package && $package['in_use'] == true && $package['defeated'] == true || !$package) {
 $opt = '<div class="payments-box">' .
         '<div class="payments-box-header">' . __('Publish fee', 'payment_pro') . '</div>' .
         '<div class="payments-box-footer">' .
